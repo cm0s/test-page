@@ -1,0 +1,28 @@
+body,
+html {
+  overflow: hidden;
+}
+.rcrumbs {
+  white-space: nowrap;
+}
+.rcrumbs > ul {
+  padding: 0px;
+}
+.rcrumbs > ul > li {
+  overflow: hidden;
+  display: none;
+}
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.rcrumbs a {
+  color: #0088cc;
+  text-decoration: none;
+}
+.rcrumbs .divider {
+  color: #cccccc;
+  padding: 0 5px;
+}
